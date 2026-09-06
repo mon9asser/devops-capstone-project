@@ -15,8 +15,8 @@ spec:
       labels:
         app: accounts
     spec:
-      containers:   
-      - image: accounts:latest
+      containers:
+      - image: IMAGE_NAME_HERE
         name: accounts
         imagePullPolicy: Never
         ports:
